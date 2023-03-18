@@ -82,6 +82,7 @@ $("#closeButton").addClass("d-none");
 })
 
 $("#search").click(function(){
+$('#contactUs').addClass("d-none");
 $('#searchBy').removeClass("d-none");
 $('#mealData').html("");
 $("#ani").addClass("animate__fadeOutDown");
