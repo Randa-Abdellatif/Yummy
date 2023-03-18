@@ -3,7 +3,7 @@ import { Details } from "./Details.module.js";
 
 //load
 //body
-
+//hfyjkk
 export class MealByName{
     constructor(){
         this.SearchMealByName("");
@@ -57,7 +57,7 @@ displayMeals(meals)
     // console.log(meals);
     if(meals == null)
     {
-        $('#mealData').html("<span>hfyjkk</span>");
+        $('#mealData').html("");
     }
     else
    { let cartona = ``;
